@@ -26,6 +26,28 @@ Real estate dataset containing over 1 million records (sampled for training effi
 - Price distribution
 - Actual vs Predicted comparison
 
+- ## 🔍 Model Interpretation
+
+### 📌 Feature Importance (Random Forest)
+
+| Feature     | Importance |
+|-------------|------------|
+| House Size  | 0.403      |
+| Bathrooms   | 0.256      |
+| Acre Lot    | 0.234      |
+| Bedrooms    | 0.085      |
+
+### 📊 Key Insights
+- **House size** is the most important factor affecting house price  
+- **Bathrooms** have strong influence on price  
+- **Lot size (acre lot)** also contributes significantly  
+- **Bedrooms** have the least impact compared to other features  
+
+### 📌 Linear Regression Insights
+- Bathrooms show strong positive impact on price  
+- House size and lot size increase price  
+- Bedrooms showed a negative coefficient due to correlation with other features (multicollinearity)
+
 ## 🚀 How to Run
 1. Open notebook in Google Colab
 2. Upload dataset
